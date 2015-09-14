@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel = "stylesheet" type="text/css" href="pages.css" data-skrollr-stylesheet/>
+    
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+		<script>
+		function clickDoor(){
+			var elem=document.getElementsByClassName("door");
+			elem.onClick=openDoor(elem);
+		};
+
+		function openDoor(elem){
+			elem.style.color="blue";
+		};
+		</script>
+	</head>
+
+	<body>
+	<div id="outerwrapper">
+	<div class="innerwrapper">
+
+		<nav class="nav1">
+			<a class = "menutab" href ='/user.html'>
+                <h3 id='manageUser'>My JThings</h3>
+            </a>
+
+            <a class = "menutab" href ='index.html'>
+                <h3 id='manageUser'>Home</h3>
+            </a>
+
+             <a class = "menutab" href ='/about.html'>
+                <h3 class='manageUser'>About JThing</h3>
+            </a>
+
+            <a class = "menutab" href ='/prompts.html'>
+                <h3 class='manageUser'>100 Jewish Prompts</h3>
+            </a>
+		</nav>
+	<div class="title">
+		<h1>Click A Pick!</h1>
+	</div>
+
+	<div class="picCol1">
+	<div class="pic">
+		<img src="brunch.jpg" class="img-responsive"></img>
+	</div>
+
+	<div class="pic">
+		<img src="rsz_dinner2.jpg" class="img-responsive"></img>
+	</div>
+	</div>
+
+	<div class="picCol2">
+	<div class="pic">
+		<img src="rsz_cheesewine.jpg" class="img-responsive"></img>
+	</div>
+	<div class="pic">
+		<img src="lchaim.jpg" class="img-responsive"></img>
+	</div>
+	</div>
+	
+
+	</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script type ="text/javascript" src="skrollr.stylesheets.min.js"></script>
+	<script type ="text/javascript" src="skrollr.js"></script>
+	<script type = "text/javascript">
+	var s=skrollr.init();
+	</script>
+	</body>
+</html>
