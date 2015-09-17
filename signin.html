@@ -32,10 +32,54 @@
       </nav>
 
 
-
+<div class="center">
 <div class="center headingimage">
 <img src="img/door12.jpeg" class="headingimage2" alt="Responsive image"></img>
 </div>
+</div>
+
+<form id="sign-in" action="../account/sign-in/post"
+method="POST" class="chunk">
+  <h2>sign in</h2>
+  
+  <p><input type="text" name="name" placeholder="pseudonym"></p>
+  <p><input type="password" name="password" placeholder="password"></p>
+  
+  <button type="submit" class="bigred">sign in</button>
+
+  <p><a href="../account/password-reset">password reset</a></p>
+</form>
+
+ <div class="buttons">
+        <div class="signed-out">
+          <a href="https://sudoroom.org/humans/account/create">
+            <button class="bigred">create account</button>
+          </a>
+          <a href="https://sudoroom.org/humans/account/sign-in">
+            <button class="bigred">sign in</button>
+          </a>
+        </div>
+        <div class="signed-in" style="display: none">
+          <a href="https://sudoroom.org/humans/~" class="profile-link">
+            <button class="bigred">profile</button>
+          </a>
+          <a href="https://sudoroom.org/humans/account/sign-out/" class="sign-out-link">
+            <button class="bigred">sign out</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="content"><form id="sign-in" action="../account/sign-in/post"
+method="POST" class="chunk">
+  <h2>sign in</h2>
+  
+  <p><input type="text" name="name" placeholder="pseudonym"></p>
+  <p><input type="password" name="password" placeholder="password"></p>
+  
+  <button type="submit" class="bigred">sign in</button>
+
+  <p><a href="../account/password-reset">password reset</a></p>
+</form>
 
 
   <div class="row">
