@@ -1,3 +1,419 @@
+
+.ideapic{
+  margin-top:5%;
+  margin-bottom:2%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+
+}
+.titlecenter{
+  font-size:8em;
+  text-align: center;
+  margin-top:8%;
+
+}
+.center {
+  margin:auto !important;
+  text-align: center !important;
+  margin-bottom: 3% !important;
+
+}
+.centerbutton{
+  margin-left: 35% !important;
+  margin-top:5% !important;
+}
+
+
+.ideathumbnails{
+  margin-top: 5% !important;
+}
+
+.checkboxinfo {
+  margin-bottom:5% !important;
+}
+
+.prompts li {
+  margin-bottom:1% !important;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.feedtitle {
+  padding-top: 5% !important;
+}
+
+
+body{
+  overflow:auto;
+}
+
+.nav1 {
+  background-color: black;
+  position:fixed;
+  text-align: center;
+  height:10%;
+  width:80%;
+  left:10%;
+  right:10%;
+  z-index:100;
+}
+
+.hometitle{
+  height:10% !important;
+  background-color: black !important;
+
+}
+.hometitle li{
+  height:10% !important;
+  background-color: black !important;
+
+}
+
+.menutab{
+  color:white;
+  float:left;
+  text-align:center;
+  margin-left: 8%;
+}
+
+.titlepic{
+  width:100%;
+  position:relative;
+  z-index:-1;
+  -moz-animation-duration: 15s;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    -moz-animation-name: titleslide;
+    -webkit-animation-name: titleslide;
+    animation-name: titleslide;
+    -moz-animation-iteration-count: 2;
+    -webkit-animation-iteration-count: 2;
+    animation-iteration-count: 2;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-moz-keyframes titleslide {
+  from {
+  }
+  to{
+    transform:scale(2,2);
+  }
+}
+@-webkit-keyframes titleslide {
+  from {
+  }
+  
+  to {
+    transform:scale(2,2);
+ }
+}
+
+@keyframes titleslide {
+  from {
+  }
+  
+  to {
+    transform:scale(2,2);
+ }
+}
+
+
+.jthing{
+  margin-top:-38% !important;
+  text-align:center;
+  -skrollr-animation-name:title1;
+
+}
+.subtitle {
+  top:-35% !important;
+  background-color: #333;
+  color:white;
+  -skrollr-animation-name:title1;
+
+
+}
+.jthing h1 {
+  font-size:5em;
+  text-shadow:5px 5px 3px black;
+  padding:auto;
+  color:white;
+}
+.subtitle h2{
+  margin:auto;
+  color:white;
+  text-align: center;
+
+}
+
+@-skrollr-keyframes title1 {
+  0 {
+  }
+  200 {
+    margin-top: 0%;
+  } 
+  300 {
+    margin-top:-100%;
+  }
+  
+
+}
+
+.alldoors{
+  margin-top:30%;
+}
+.doorrow1 {
+  height:340px;
+  width:230px;
+  float:left;
+  margin-top: 2%;
+
+}
+
+.doorrow2 {
+  height:340px;
+  width:230px;
+  float:left;
+  margin-top: 2%;
+
+}
+
+.hscontainer {
+  -skrollr-animation-name:animationFade;
+}
+
+@-skrollr-keyframes animationFade {
+  200 {
+    opacity:1;
+  }
+  300 {
+    opacity:1;
+  }
+}
+
+.hscontent {
+  font-size: 3em;
+  text-shadow:2px 2px 2px black;
+  color:white;
+  font-family:sans-serif;
+  text-align:center;
+}
+
+
+
+
+#door1{
+
+  background-image: url('../rsz_door1.jpg');
+  -skrollr-animation-name:animation1;
+
+}
+
+
+@-skrollr-keyframes animation1 {
+  0p {
+    margin-left:100%;
+
+  }
+  50 {
+    margin-left:100%;
+  }
+
+  70 {
+    margin-left: 2%;
+  }
+  
+}
+
+
+
+#door2 {
+  background-image:url('../img/door5.jpg');
+  -skrollr-animation-name:animation2;
+}
+
+@-skrollr-keyframes animation2 {
+  0{
+    margin-left:100%;
+  }
+  
+  250 {
+    margin-left: 100%;
+  }
+
+  350 {
+    margin-left:2%;
+  }
+  top {
+    color:rgb(0,0,0);
+  }
+
+  bottom {
+    color:rgb(255,0,0);
+  }
+}
+
+#door8 {
+  background-image:url('../img/door8');
+  -skrollr-animation-name:animation2;
+}
+
+
+#door7{
+
+  background-image: url('../img/door7.jpeg');
+  -skrollr-animation-name:animation4;
+}
+
+@-skrollr-keyframes animation4 {
+  0{
+    margin-left:100%;
+  }
+  
+  600 {
+    margin-left: 100%;
+  }
+
+  700 {
+    margin-left:2%;
+  }
+  top {
+    color:rgb(0,0,0);
+  }
+
+  bottom {
+    color:rgb(255,0,0);
+  }
+
+}
+
+
+
+#door10{
+
+  background-image: url('../img/door10');
+  -skrollr-animation-name:animation5;
+
+}
+
+
+@-skrollr-keyframes animation5 {
+  0{
+    margin-left:100%;
+  }
+  
+  700 {
+    margin-left: 100%;
+  }
+
+  800 {
+    margin-left:2%;
+  }
+  top {
+    color:rgb(0,0,0);
+  }
+
+  bottom {
+    color:rgb(255,0,0);
+  }
+
+}
+#door11{
+
+  background-image: url('../rsz_door11.jpg');
+  -skrollr-animation-name:animation6;
+
+}
+
+
+
+@-skrollr-keyframes animation6 {
+  0{
+    margin-left:100%;
+  }
+  
+  800 {
+    margin-left: 100%;
+  }
+
+  900 {
+    margin-left:2%;
+  }
+  top {
+    color:rgb(0,0,0);
+  }
+
+  bottom {
+    color:rgb(255,0,0);
+  }
+
+}
+.headingimage img {
+  max-height: 500px;
+  margin:auto;
+}
+
+.headingimage2{
+  max-height:30%;
+}
+#abouttitle {
+  margin-top: -50% !important;
+
+
+}
+
+#abouttitle h1 {
+  color:white;
+  text-shadow:5px 5px 3px black;
+    background-color: #333 !important;
+    z-index: 100;
+}
+
+#aboutpanel1{
+  margin-top:45%;
+}
+
+#aboutpanel2{
+  margin-top:5%;
+}
+
+.largetitle h1{
+  font-size:4em;
+}
+
+#mediabutton{
+  margin-top: 80%;
+  position:fixed;
+}
+
+
+#promptstext h1{
+  margin-top: -38%;
+  margin-bottom:33%;
+  font-size: 3em;
+  font-style: bold;
+  color:white;
+  text-shadow:5px 2px 1px black;
+}
+
+@media only screen and (max-width: 500px){
+  /*.largetitle h1{font-size: 60%;}*/
+  #aboutpanel1 {margin-top:5%;}
+  #promptstext h1{margin-bottom:5%;}
+}
+
+@media only screen and (max-width: 800px){
+  /*.largetitle h1{font-size: 80%;}*/
+
+}
+
+@media only screen and (max-width: 1100px) {
+  /*.largetitle h1{font-size:120%;}*/
+}  
+
+
 meta.foundation-version {
   font-family: "/5.5.2/"; }
 
@@ -1600,7 +2016,7 @@ input[type="file"],
 input[type="checkbox"],
 input[type="radio"],
 select {
-  margin: 0 0 1rem 0; }
+  margin: 0; }
 
 input[type="checkbox"] + label,
 input[type="radio"] + label {
@@ -1699,7 +2115,7 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #333333; }
+  background: black; }
   .contain-to-grid .top-bar {
     margin-bottom: 0; }
 
@@ -1728,7 +2144,7 @@ meta.foundation-mq-topbar {
   line-height: 2.8125rem;
   margin-bottom: 0;
   overflow: hidden;
-  position: relative; }
+  position: fixed; }
   .top-bar ul {
     list-style: none;
     margin-bottom: 0; }
@@ -6322,3 +6738,5 @@ th.hide-for-touch {
 @media not print {
   .show-for-print {
     display: none !important; } }
+
+
