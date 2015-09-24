@@ -1,4 +1,7 @@
-
+.introTxt{
+  background-color:white;
+  text-align:center;
+}
 .ideapic{
   margin-top:5%;
   margin-bottom:2%;
@@ -206,7 +209,7 @@ body{
 
 #door1{
 
-  background-image: url('../rsz_door1.jpg');
+  background-image: url('../img/rsz_door1.jpg');
   -skrollr-animation-name:animation1;
 
 }
@@ -322,7 +325,7 @@ body{
 }
 #door11{
 
-  background-image: url('../rsz_door11.jpg');
+  background-image: url('../img/rsz_door11.jpg');
   -skrollr-animation-name:animation6;
 
 }
