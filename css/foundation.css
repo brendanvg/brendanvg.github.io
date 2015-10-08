@@ -32,8 +32,9 @@
   margin-top: 5% !important;
 }
 
-.checkboxinfo {
+.checklist {
   margin-bottom:5% !important;
+  margin-left: 30%;
 }
 
 .prompts li {
@@ -125,7 +126,6 @@ body{
 
 
 .jthing{
-  margin-top:-38% !important;
   text-align:center;
   -skrollr-animation-name:title1;
 
@@ -142,7 +142,7 @@ body{
   font-size:5em;
   text-shadow:5px 5px 3px black;
   padding:auto;
-  color:white;
+  color:black;
 }
 .subtitle h2{
   margin:auto;
@@ -217,19 +217,18 @@ body{
 
 @-skrollr-keyframes animation1 {
   0p {
-    margin-left:100%;
+    margin-left:50%;
 
   }
   50 {
-    margin-left:100%;
+    margin-left:50%;
   }
 
-  70 {
+  100 {
     margin-left: 2%;
   }
   
 }
-
 
 
 #door2 {
@@ -239,120 +238,40 @@ body{
 
 @-skrollr-keyframes animation2 {
   0{
-    margin-left:100%;
+    margin-left:55%;
   }
   
-  250 {
-    margin-left: 100%;
+  70 {
+    margin-left: 55%;
   }
 
-  350 {
+  120 {
     margin-left:2%;
   }
-  top {
-    color:rgb(0,0,0);
-  }
-
-  bottom {
-    color:rgb(255,0,0);
-  }
+  
 }
 
-#door8 {
+#door3 {
   background-image:url('../img/door8');
-  -skrollr-animation-name:animation2;
+  -skrollr-animation-name:animation3;
 }
 
-
-#door7{
-
-  background-image: url('../img/door7.jpeg');
-  -skrollr-animation-name:animation4;
-}
-
-@-skrollr-keyframes animation4 {
+@-skrollr-keyframes animation3 {
   0{
-    margin-left:100%;
+    margin-left:60%;
   }
   
-  600 {
-    margin-left: 100%;
+  90 {
+    margin-left: 60%;
   }
 
-  700 {
+  140 {
     margin-left:2%;
-  }
-  top {
-    color:rgb(0,0,0);
-  }
-
-  bottom {
-    color:rgb(255,0,0);
-  }
-
-}
-
-
-
-#door10{
-
-  background-image: url('../img/door10');
-  -skrollr-animation-name:animation5;
-
-}
-
-
-@-skrollr-keyframes animation5 {
-  0{
-    margin-left:100%;
   }
   
-  700 {
-    margin-left: 100%;
-  }
-
-  800 {
-    margin-left:2%;
-  }
-  top {
-    color:rgb(0,0,0);
-  }
-
-  bottom {
-    color:rgb(255,0,0);
-  }
-
-}
-#door11{
-
-  background-image: url('../img/rsz_door11.jpg');
-  -skrollr-animation-name:animation6;
-
 }
 
 
-
-@-skrollr-keyframes animation6 {
-  0{
-    margin-left:100%;
-  }
-  
-  800 {
-    margin-left: 100%;
-  }
-
-  900 {
-    margin-left:2%;
-  }
-  top {
-    color:rgb(0,0,0);
-  }
-
-  bottom {
-    color:rgb(255,0,0);
-  }
-
-}
 .headingimage img {
   max-height: 500px;
   margin:auto;
