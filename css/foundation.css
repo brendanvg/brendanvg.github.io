@@ -1,6 +1,51 @@
+@media only screen and (max-width: 800px){
+  /*.largetitle h1{font-size: 60%;}*/
+  #aboutpanel1 {margin-top:5%;}
+  #promptstext h1{margin-bottom:5%;}
+
+  .jthing h1{
+    font-size: 5em;
+  }
+
+  .checklist{
+    margin-left: 10%;
+  }
+
+  .alldoors{
+    margin-bottom: 20% !important;
+  }
+
+  #footer{
+    margin-top: 50%!important;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  /*.largetitle h1{font-size: 80%;}*/
+
+  .checklist {
+    margin-left:15%;
+  }
+
+  .alldoors {
+    margin-bottom: 20%;
+  }
+
+}
+
+@media only screen and (max-width: 2000px) {
+  /*.largetitle h1{font-size:120%;}*/
+}  
+
+
+
+#homebutton{
+position:absolute;
+color:black;
+}
+
 .introTxt{
   background-color:white;
-  text-align:center;
 }
 .ideapic{
   margin-top:5%;
@@ -139,10 +184,16 @@ body{
 
 }
 .jthing h1 {
-  font-size:5em;
-  text-shadow:5px 5px 3px black;
+  font-size:10em;
+  text-shadow:5px 5px 3px gray;
   padding:auto;
   color:black;
+  font-family: 'Fira Sans',sans-serif !important;
+
+}
+
+.jthing h1 {
+
 }
 .subtitle h2{
   margin:auto;
@@ -151,6 +202,23 @@ body{
 
 }
 
+.allIntros p{
+  font-size: 1.8em;
+}
+
+.allIntros h3{
+  font-size: 2.3em;
+}
+
+#intro2 {
+  margin-top: 10%;
+}
+#intro1 h2{
+  text-align: center;
+  font-size: 3em;
+  margin-left: 5%;
+  font-family: 'Comfortaa', cursive;
+}
 @-skrollr-keyframes title1 {
   0 {
   }
@@ -164,8 +232,30 @@ body{
 
 }
 
+#intro3{
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
+  font-family: 'Fira Sans',sans-serif !important;
+
+}
+
+#intro3 h3{
+  font-family: 'Fira Sans',sans-serif !important;
+}
+
+#intro4{
+  text-align: right;
+  margin-right: 10% !important;
+  margin-left: 25%;
+  font-family:'Quicksand', sans-serif;
+}
+
 .alldoors{
-  margin-top:30%;
+  margin-top:10%;
+  width:90%;
+  height:30%;
+  margin-left: 10%;
+  
 }
 .doorrow1 {
   height:340px;
@@ -271,6 +361,11 @@ body{
   
 }
 
+#footer{
+  width:100%;
+  margin-top:10%;
+  text-align: center;
+}
 
 .headingimage img {
   max-height: 500px;
@@ -320,20 +415,6 @@ body{
   text-shadow:5px 2px 1px black;
 }
 
-@media only screen and (max-width: 500px){
-  /*.largetitle h1{font-size: 60%;}*/
-  #aboutpanel1 {margin-top:5%;}
-  #promptstext h1{margin-bottom:5%;}
-}
-
-@media only screen and (max-width: 800px){
-  /*.largetitle h1{font-size: 80%;}*/
-
-}
-
-@media only screen and (max-width: 1100px) {
-  /*.largetitle h1{font-size:120%;}*/
-}  
 
 
 meta.foundation-version {
@@ -390,6 +471,8 @@ html {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
+
+
 
 html,
 body {

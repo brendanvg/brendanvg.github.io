@@ -1,6 +1,7 @@
 <doctype html>
 <html class="no-js" lang="en">
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa:700|Fira+Sans:700|Quicksand:700' rel='stylesheet' type='text/css'>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
@@ -18,79 +19,114 @@
     };
     </script>
 
+
+
   </head>
 
 
   <body>
     
-    
+<div id="skrollr-body">  
     
 
 
-<div id="skrollr-body">
+
   
   <div class="row">
-    <div class="jthing small-8 small-centered columns"> 
+    <div class="allIntros jthing small-12 small-centered columns"> 
       <h1>JThing</h1>
     </div>
   </div>
 
   <div class="row">
-    <div class="subtitle large-8 medium-8 small-8 small-centered columns">
+    <div class="allIntros large-8 medium-8 small-8 small-centered columns" id="intro1"> 
       <h2>Do a Jewish Thing Together </h2>
     </div>
   </div>
 
   <div class ="row">
-    <div class ="introTxt small-8 small-centered columns">
-      <p><br> Get connected to Jewish hangouts... <br>We'll bring guidance for those searching, and money or blessings for those hosting. <br>You bring your people together and make sure everyone brings some chutzpah. <br>Sound fair?...Good.</p>
-
-    <div class='center'>
-        <h2>Click to walk through a door!</h2>
+    <div class ="allIntros small-offset-1 introTxt small-8 small-centered columns" id="intro2">
+      <p><br>Hey Quakers out there in the “Real world”: <br>Host your own Shabbat dinner<br>or any other type of Jewish party.<br>Penn Hillel’s got your back.*<br><br>* (If you need them, we’ve got ideas – and we’ll cover the bill.) </p>
     </div>
   </div>
 
+  <div class="row">
+    <div class="allIntros small-offset-2 center small-8 small-centered" id="intro3"><h3>Ready? </h3> <p>Shoot us a note and let’s make it happen<a href="#" data-reveal-id="firstModal" class="button round">Contact Us!</a> </p>
+    </div>
+  </div>
+  
+  
+    <div id="firstModal" class="reveal-modal" data-reveal aria-labelledby="firstModalTitle" aria-hidden="true" role="dialog">
+      <h1 id="firstModalTitle">Contact Us</h2>
+      <form action="" method="post">
+        <h3>Name</h3>
+        <input id="name" type="text" name="name"></input>
+        <h3>Email</h3>
+        <input id="email" type="email" name="email"></input>
+        <h3>What are you thinking?</h3>
+        <p>(When would you like to host? How many folks will be there? How can we help you?)</p>
+        <input id="thinking" type="textarea" name="thinking"></input>
+        <a href="#" data-reveal-id="secondModal" class="secondary button"><input id="submit" type="submit" name="submit" value="submit"></input></a>
+      </form>
+    </div>
 
-<div class="alldoors center">
+    <div id="secondModal" class="reveal-modal" data-reveal aria-labelledby="secondModalTitle" aria-hidden="true" role="dialog">
+      <h2>Thank you. Your message has been received. We'll get back to you soon...</h2>
+    </div>
+
+  <div class="row"> 
+    <div class="allIntros small-8" id="intro4">
+      <h3>Feel inspired, but not sure what to do? </h3>
+      <p>Let us make a few suggestions....</p>
+      <h4>Click to walk through a door!</h4>
+    </div>
+  </div>
   
 
-  <a href="apply.html">
+
+<div class="alldoors">
+
+  <a href="dinner.html">
     <div class="doorrow1 small-8 medium-4 large-3" id ="door1">
       <div class="hscontainer">
         <div class ="hscontent"> 
-          HANG OUT $$
+          Shabbat
         </div>
       </div>
     </div>
   </a>
 
-  <a href="dinner.html">
+  <a href="cheesewine.html">
     <div class="doorrow1 small-8 medium-4 large-3" id ="door2">
         <div class="hscontainer">
           <div class ="hscontent"> 
-            GET IDEAS
+            Wine & Cheese
           </div>
         </div>
     </div>
   </a>
 
-  <a href="prompts.html">
+  <a href="brunch.html">
     <div class="doorrow1 small-8 medium-4 large-3" id ="door3">
       <div class="hscontainer">
         <div class ="hscontent"> 
-          100 JEWISH PROMPTS
+          Brunch
         </div>
       </div>
     </div>
   </a>
 
-
-
 </div>
 
+<div id="footer">
+  <p>This is a project of the Penn Jewish Alumni Network and is generously supported by Joseph and Meryl Mark.</p>
+</div>
 
+<div class="center">
+<img src="img/hillelLogo.png"></img>
+</div>
 
-
+</div>
 
     <script src="js/foundation/foundation.clearing.js"></script>
     <script src="js/vendor/jquery.js"></script>
@@ -107,6 +143,13 @@
       var s=skrollr.init();
     </script>
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.fittext.js"></script>
+<script>
+  jQuery("#responsive_headline").fitText();
+</script>
 
-  </body>
+
+
+</body>
 </html>

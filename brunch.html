@@ -9,29 +9,11 @@
   </head>
   <body>
     
-       
-      <nav class="top-bar fixed" data-topbar>
-        <ul class="title-area">
-          <li class="name">
-              
-            <h1><a href="index.html">JThing</a></h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-        </ul>
-
-        <section class="top-bar-section">
-         
-          <ul class="right">
-            <li><a href="signin.html">Sign-In</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="apply.html">Hangout $$</a></li>
-            <li><a href="dinner.html">Ideas</a></li>
-            <li><a href="prompts.html">100 Jewish Prompts</a></li>
-            <li><a href="beingjewish.html">What's being Jewish?</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-          </ul>
-        </section>
-      </nav>
+  <a class="button" href="index.html" id="homebutton">
+    <label>Home</label>
+  </a>
+  
+</div>
 
       <header>
        
@@ -79,8 +61,32 @@
              <h6>Use your phone to take a picture of all receipts and email these pics to the JThing staff <br> – they’ll send out a reimbursement check ASAP </h6>
           </div>
         </div>
-   
-    <hr>
+   <hr>
+
+<div class="row">
+    <div class="panel callout radial center small-8 small-centered"><h3>Ready? </h3> Shoot us a note and let’s make it happen  --> <a href="#" data-reveal-id="firstModal" class="button round">Contact Us!</a>
+    </div>
+  </div>
+  
+  
+    <div id="firstModal" class="reveal-modal" data-reveal aria-labelledby="firstModalTitle" aria-hidden="true" role="dialog">
+      <h1 id="firstModalTitle">Contact Us</h2>
+      <form action="" method="post">
+        <h3>Name</h3>
+        <input id="name" type="text" name="name"></input>
+        <h3>Email</h3>
+        <input id="email" type="email" name="email"></input>
+        <h3>What are you thinking?</h3>
+        <p>(When would you like to host? How many folks will be there? How can we help you?)</p>
+        <input id="thinking" type="textarea" name="thinking"></input>
+        <a href="#" data-reveal-id="secondModal" class="secondary button"><input id="submit" type="submit" name="submit" value="submit"></input></a>
+      </form>
+    </div>
+
+    <div id="secondModal" class="reveal-modal" data-reveal aria-labelledby="secondModalTitle" aria-hidden="true" role="dialog">
+      <h2>Thank you. Your message has been received. We'll get back to you soon...</h2>
+    </div>
+
 
     <br>
     <h1 class="center"> Click a Pic for instant ideas!</h1>
@@ -107,13 +113,6 @@
       </a>
 
       
-
-      <a href="lchaim.html">
-        <div class="medium-3 large-3 text-center column">
-          <img src="img/lchaim.jpg">
-            <h4>Lechayim!</h4>
-        </div>
-      </a>
       </div>
 
 
