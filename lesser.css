@@ -3,6 +3,9 @@
 	max-width: 100%;
 }
 
+h3.subheader {
+	margin-top: -10px;
+}
 
 /*
 #wrapper    {float:left; margin-left:25%;}

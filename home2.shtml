@@ -3,7 +3,9 @@
 <head>
 	<title>California Executive Coaching CA Executive Transition Coach California Executive Transition Coaching</title>
 	<META NAME="description" content="California Executive Coaching and California Executive Transition Coaching offering CA Executive Transition Coach David Lesser and Associates.">
+	<!--
 	<META NAME="KEYWORDS" CONTENT="California Executive Coaching, Executive Coaching, California Executive Transition Coaching, CA Executive Transition Coach, Executive Transition Coaching, California Executive Coach, California Executive Transition Coach, CA Executive Transition Coaching ">
+	-->
 	<META NAME="robots" content="index,follow">
 	<meta name="GOOGLEBOT" content="index,follow"> 
 	<META NAME="revisit-after" CONTENT="14 days">
@@ -48,6 +50,17 @@
 				&amp; Associates<br/>
 				Executive Coaching Board Directors
 			</h3>
+			<form name="formmail" action="/cgi-bin/formmail/formmail.cgi" method="post" style="margin-bottom:3;"> 
+				<input type=hidden name="recipient" value="david@davidlessercoaching.com">
+				<div align="right">
+					<input type="text" name="email" size="17" value="" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:8pt; border:1px solid #999999;"> 
+					<input type="submit" name="go" value="GO" class="submit" style="font-family:Tahoma,Arial,Helvetica,sans-serif; font-size:8pt"> 
+					<input type=hidden name="required" value="email"> 
+					<input type="hidden" name="Form Subject" value="Blog Subscribe, Please"> 
+					<input type="hidden" name="realname">
+					<input type=hidden name="redirect" value="/thankyou.html"> <img src="images/spacer.gif" alt="" width="77" height="14" border="0">
+				</div>
+			</form>			
 		</div>
 	</div>
 
