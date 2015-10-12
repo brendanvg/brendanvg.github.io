@@ -1,7 +1,7 @@
 <doctype html>
 <html class="no-js" lang="en">
   <head>
-    <link href='https://fonts.googleapis.com/css?family=Comfortaa:700|Fira+Sans:700|Quicksand:700' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Comfortaa:700|Fira+Sans:700|Quicksand:700|Corben:400,700|Ultra|Sniglet:400,800|Oswald:400,700|Permanent+Marker|Patrick+Hand|Damion|Gochi+Hand|Yellowtail|Kalam:600,700|Grand+Hotel|Caveat+Brush' rel='stylesheet' type='text/css'>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
@@ -34,7 +34,7 @@
   
   <div class="row">
     <div class="allIntros jthing small-12 small-centered columns"> 
-      <h1>JThing</h1>
+      <h1>Title</h1>
     </div>
   </div>
 
@@ -44,9 +44,9 @@
     </div>
   </div>
 
-  <div class ="row">
+  <div class ="row" id="intro2Div">
     <div class ="allIntros small-offset-1 introTxt small-8 small-centered columns" id="intro2">
-      <p><br>Hey Quakers out there in the “Real world”: <br>Host your own Shabbat dinner<br>or any other type of Jewish party.<br>Penn Hillel’s got your back.*<br><br>* (If you need them, we’ve got ideas – and we’ll cover the bill.) </p>
+      <h3><br>Dear Quakers out there in the “Real World”,<br> <br>Ever wanted to host your own Shabbat dinner or throw a party for all those <br>MOT's (Members of the Tribe) in your life? <br>Well now's the time to do it.<br> And we'll cover the bill --like, for real.<br> <br>xoxo,<br>Penn Hillel</h3>
     </div>
   </div>
 
@@ -66,7 +66,7 @@
         <h3>What are you thinking?</h3>
         <p>(When would you like to host? How many folks will be there? How can we help you?)</p>
         <input id="thinking" type="textarea" name="thinking"></input>
-        <a href="#" data-reveal-id="secondModal" class="secondary button"><input id="submit" type="submit" name="submit" value="submit"></input></a>
+        <a href="#" data-reveal-id="secondModal"><input id="submit" type="submit" name="submit" value="submit"></input></a>
       </form>
     </div>
 
@@ -74,51 +74,54 @@
       <h2>Thank you. Your message has been received. We'll get back to you soon...</h2>
     </div>
 
-  <div class="row"> 
+  <div class="row" id="intro4Div"> 
     <div class="allIntros small-8" id="intro4">
-      <h3>Feel inspired, but not sure what to do? </h3>
-      <p>Let us make a few suggestions....</p>
-      <h4>Click to walk through a door!</h4>
+      <h3>Feel inspired, but not sure what to do? <br>
+      Let us make a few suggestions....
+     Click to walk through a door!</h3>
     </div>
   </div>
   
 
 
-<div class="alldoors">
+<div class="row alldoors">
+  
 
-  <a href="dinner.html">
-    <div class="doorrow1 small-8 medium-4 large-3" id ="door1">
-      <div class="hscontainer">
-        <div class ="hscontent"> 
-          Shabbat
-        </div>
-      </div>
-    </div>
-  </a>
-
-  <a href="cheesewine.html">
-    <div class="doorrow1 small-8 medium-4 large-3" id ="door2">
-        <div class="hscontainer">
-          <div class ="hscontent"> 
-            Wine & Cheese
-          </div>
-        </div>
-    </div>
-  </a>
-
-  <a href="brunch.html">
-    <div class="doorrow1 small-8 medium-4 large-3" id ="door3">
-      <div class="hscontainer">
-        <div class ="hscontent"> 
+  <div class="small-12 medium-4 columns">
+    <a href="brunch.html">
+      <div id ="door3">
+        <span class="text-center" id="doorText">
           Brunch
-        </div>
+        </span>
       </div>
-    </div>
-  </a>
+    </a>
+  </div>
+
+  
+
+  <div class="small-12 medium-4 columns">
+    <a href="cheesewine.html">
+      <div id="door2">
+        <span class="text-center" id="doorText">
+            Wine & Cheese
+        </span>
+      </div>
+    </a>
+  </div>
+
+  <div class="small-12 medium-4 columns">
+    <a href="dinner.html">
+      <div id="door1">
+        <span class="text-center" id="doorText">
+            Shabbat
+        </span>
+      </div>
+    </a>
+  </div>
 
 </div>
 
-<div id="footer">
+<div class="footer">
   <p>This is a project of the Penn Jewish Alumni Network and is generously supported by Joseph and Meryl Mark.</p>
 </div>
 

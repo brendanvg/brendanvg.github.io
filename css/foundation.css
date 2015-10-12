@@ -7,13 +7,14 @@
     font-size: 5em;
   }
 
-  .checklist{
+  /*.checklist{
     margin-left: 10%;
   }
-
+*/
   .alldoors{
     margin-bottom: 20% !important;
   }
+
 
   #footer{
     margin-top: 50%!important;
@@ -23,9 +24,9 @@
 @media only screen and (max-width: 1200px){
   /*.largetitle h1{font-size: 80%;}*/
 
-  .checklist {
+  /*.checklist {
     margin-left:15%;
-  }
+  }*/
 
   .alldoors {
     margin-bottom: 20%;
@@ -79,8 +80,8 @@ color:black;
 
 .checklist {
   margin-bottom:5% !important;
-  margin-left: 30%;
-}
+/*  margin-left: 30%;
+*/}
 
 .prompts li {
   margin-bottom:1% !important;
@@ -184,11 +185,12 @@ body{
 
 }
 .jthing h1 {
-  font-size:10em;
+  font-size:13em;
   text-shadow:5px 5px 3px gray;
   padding:auto;
   color:black;
-  font-family: 'Fira Sans',sans-serif !important;
+  font-family: 'Oswald', serif !important;
+  margin-bottom: 0 !important;
 
 }
 
@@ -213,11 +215,18 @@ body{
 #intro2 {
   margin-top: 10%;
 }
+
+#intro2Div{
+    max-width: 100% !important;
+}
+
+#intro2 h3 {
+    font-family: 'Kalam', serif !important;
+}
 #intro1 h2{
   text-align: center;
   font-size: 3em;
-  margin-left: 5%;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Oswald', serif !important;
 }
 @-skrollr-keyframes title1 {
   0 {
@@ -234,7 +243,7 @@ body{
 
 #intro3{
   margin-top: 10% !important;
-  margin-bottom: 10% !important;
+  margin-bottom: 15% !important;
   font-family: 'Fira Sans',sans-serif !important;
 
 }
@@ -247,33 +256,77 @@ body{
   text-align: right;
   margin-right: 10% !important;
   margin-left: 25%;
-  font-family:'Quicksand', sans-serif;
+}
+
+#intro4Div{
+    max-width: 100% !important;
+}
+
+#intro4 h3{
+  font-family: 'Oswald', serif !important;
 }
 
 .alldoors{
-  margin-top:10%;
-  width:90%;
-  height:30%;
-  margin-left: 10%;
+  margin-top: 10% !important;
+}
+
+.alldoors{
+  /*margin-top:10%;*/
+  /*width:90%;*/
+  /*height:30%;*/
+  /*margin-left: 10%;*/
   
 }
+
+#doorText{
+  font-size: 3em;
+  text-shadow:2px 2px 2px black;
+  color:white;
+  font-family:'Sniglet', sans-serif !important;
+  text-align:center;
+}
+
+#door1{
+background-image: url('../img/rsz_door1.jpg');
+background-position:center center;
+background-size: cover !important;
+overflow-x:hidden;
+background-repeat: no-repeat;
+min-height:340px;
+max-width:230px;
+}
+#door2{
+background-image:url('../img/door5.jpg');
+background-position:center center;
+background-size: cover !important;
+overflow-x:hidden;
+background-repeat: no-repeat;
+min-height:340px;
+max-width:230px;
+}
+#door3{
+background-image:url('../img/door8');
+background-position:center center;
+background-size: cover !important;
+overflow-x:hidden;
+background-repeat: no-repeat;
+min-height:340px;
+max-width:230px;
+}
+
 .doorrow1 {
-  height:340px;
-  width:230px;
-  float:left;
+  min-height:340px;
+  min-height:100%;
+  min-width:100%;
+  background-repeat:no-repeat;
+  max-width:230px;
   margin-top: 2%;
+  background-size: ;
 
 }
 
-.doorrow2 {
-  height:340px;
-  width:230px;
-  float:left;
-  margin-top: 2%;
 
-}
-
-.hscontainer {
+/*.hscontainer {
   -skrollr-animation-name:animationFade;
 }
 
@@ -285,19 +338,19 @@ body{
     opacity:1;
   }
 }
-
+*//*
 .hscontent {
   font-size: 3em;
   text-shadow:2px 2px 2px black;
   color:white;
   font-family:sans-serif;
   text-align:center;
-}
+}*/
 
 
 
 
-#door1{
+/*#door1{
 
   background-image: url('../img/rsz_door1.jpg');
   -skrollr-animation-name:animation1;
@@ -359,12 +412,14 @@ body{
     margin-left:2%;
   }
   
-}
+}*/
 
-#footer{
+.footer{
   width:100%;
-  margin-top:10%;
   text-align: center;
+  font-family: 'Oswald', serif !important;
+  margin-top: 20% !important;
+  margin-bottom:0 !important;
 }
 
 .headingimage img {
@@ -482,7 +537,8 @@ body {
   background: #fff;
   color: #222;
   cursor: auto;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
+  /*font-size:2em;*/
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -3154,8 +3210,8 @@ meta.foundation-mq-topbar {
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
     color: #333333; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
-    line-height: 1;
-    margin-bottom: 0.625rem; }
+/*    line-height: 1;
+*/    margin-bottom: 0.625rem; }
     .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
       line-height: 1.4; }
   .panel.callout {
@@ -4134,7 +4190,7 @@ a {
 /* Default paragraph styles */
 p {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: .8em;
   font-weight: normal;
   line-height: 1.6;
   margin-bottom: 1.25rem;
@@ -4150,11 +4206,11 @@ p {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8em;
   margin-top: 0.2rem;
   text-rendering: optimizeLegibility; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
