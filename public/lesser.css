@@ -10,10 +10,13 @@ background: url(01_splash.png) no-repeat center center fixed;
 
 .menu h3{
 	font-size: 2em !important;
+	font-family: 'Dosis', sans-serif;
+
 }
 
 .maintext{
 	color:white;
+	font-family: 'Muli', sans-serif;
 }
 
 
@@ -21,6 +24,7 @@ background: url(01_splash.png) no-repeat center center fixed;
 	color:white;
 	font-size: 4em;
 	text-shadow:3px 3px 1px #008CBA;
+	font-family: 'Dosis', sans-serif;
 
 
 }
@@ -30,20 +34,26 @@ background: url(01_splash.png) no-repeat center center fixed;
 	font-size: 3em;
 	text-shadow:3px 3px 1px #008CBA;
 	margin-bottom: 15%;
+	font-family: 'Dosis', sans-serif;
 
 }
 
 .subheader{
 	color:white;
+	font-family: 'Dosis',sans-serif;
 }
 
 
 
 .subsubheader{
 	color:white;
+	font-family: 'Dosis',sans-serif;
 }
 
 
+.centered {
+	text-align: center;
+}
 // Small screens
 @media only screen { 
 	.menu h3{
@@ -82,18 +92,51 @@ background: url(01_splash.png) no-repeat center center fixed;
 		font-size:1.5em;
 	}
 
+
 	
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
-@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) { 
+	.title{
+	font-size: 2.5em;
+	}
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+	.subtitle {
+		font-size: 1.5em;
+	}
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+	.title{
+	font-size: 4em;
+	}
+
+	.subtitle {
+		font-size: 2.5em;
+	}} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
 
 // Large screens
-@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) { 
+	.title{
+	font-size: 5em;
+	}
 
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+	.subtitle {
+		font-size: 2em;
+	}
+} /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+	.title{
+	font-size: 5em;
+	}
+
+	.subtitle {
+		font-size: 3.5em;
+	}
+} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
 // XLarge screens
 @media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
