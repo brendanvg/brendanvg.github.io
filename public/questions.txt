@@ -1,0 +1,4 @@
+on boards page, how to get img div to automatically center - small-centered
+
+
+credentials page layout

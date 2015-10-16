@@ -1,17 +1,28 @@
 body {
-background: url(01_splash.png) no-repeat center center fixed; 
+  background: url(01_splash.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: fixed;
-  
 }
 
-.menu h3{
+.menu {
+	position:fixed;
+	background-color: black;
+	width:20%;
+}
+
+.menu h3 {
 	font-size: 2em !important;
 	font-family: 'Dosis', sans-serif;
+}
 
+.casepic {
+	margin-bottom: 5%;
+}
+.casepicsub{
+	color:white;
 }
 
 .maintext{
@@ -19,23 +30,20 @@ background: url(01_splash.png) no-repeat center center fixed;
 	font-family: 'Muli', sans-serif;
 }
 
-
 .title{
+	margin-top: 5%;
 	color:white;
 	font-size: 4em;
 	text-shadow:3px 3px 1px #008CBA;
 	font-family: 'Dosis', sans-serif;
-
-
 }
 
 .subtitle {
 	color:white;
 	font-size: 3em;
 	text-shadow:3px 3px 1px #008CBA;
-	margin-bottom: 15%;
+	margin-bottom: 10%;
 	font-family: 'Dosis', sans-serif;
-
 }
 
 .subheader{
@@ -43,7 +51,27 @@ background: url(01_splash.png) no-repeat center center fixed;
 	font-family: 'Dosis',sans-serif;
 }
 
+.black {
+	background-color: black !important;
+}
 
+.mymenu{
+	position:fixed !important;
+	z-index: 100;
+	width:100%;
+}
+
+.mymenu ul li a {
+	color:white !important;
+}
+
+#davidimg{
+	margin-top: 10%;
+}
+
+.mypad{
+	padding: 5%;
+}
 
 .subsubheader{
 	color:white;
@@ -53,7 +81,9 @@ background: url(01_splash.png) no-repeat center center fixed;
 
 .centered {
 	text-align: center;
+	margin: auto;
 }
+
 // Small screens
 @media only screen { 
 	.menu h3{
@@ -69,10 +99,8 @@ background: url(01_splash.png) no-repeat center center fixed;
 	}
 
 	.subheader {
-		font-size:1.5em;
+		font-size:2em;
 	}
-
-
 } /* Define mobile styles */
 
 @media only screen and (max-width: 40em) { 
@@ -81,18 +109,21 @@ background: url(01_splash.png) no-repeat center center fixed;
 	}
 
 	.title{
-	font-size: 2.5em;
+	font-size: 3em;
 	}
 
 	.subtitle {
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
 	.subheader {
-		font-size:1.5em;
+		font-size:2em;
 	}
-
-
+	#davidimg {
+		margin-left:25%;
+	}
+	.myboardimg {
+	}
 	
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
@@ -109,12 +140,21 @@ background: url(01_splash.png) no-repeat center center fixed;
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 	.title{
-	font-size: 4em;
+	font-size: 5em;
 	}
 
 	.subtitle {
-		font-size: 2.5em;
+		font-size: 3em;
 	}} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+.subheader {
+		font-size:3em;
+	}
+
+	.myimg{
+		margin-top: 10%;
+	}
+	
 
 
 // Large screens
@@ -135,6 +175,11 @@ background: url(01_splash.png) no-repeat center center fixed;
 
 	.subtitle {
 		font-size: 3.5em;
+	}
+
+	.myboardimg {
+		margin-top: 10%;
+		
 	}
 } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
