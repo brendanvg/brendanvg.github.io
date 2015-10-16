@@ -1,0 +1,153 @@
+<doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa:700|Fira+Sans:700|Quicksand:700|Corben:400,700|Ultra|Sniglet:400,800|Oswald:400,700|Permanent+Marker|Patrick+Hand|Damion|Gochi+Hand|Yellowtail|Kalam:600,700|Grand+Hotel|Caveat+Brush' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JThing | Home</title>
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel = "stylesheet" type="text/css" href="foundation.css" />
+    <link rel = "stylesheet" type="text/css" href="indexmatt.css" data-skrollr-stylesheet/>
+  </head>
+
+  <body>
+    
+<div id="skrollr-body">  
+    
+  <div class="row">
+    <div class="jthing small-12 small-centered columns"> 
+      <h1 class="responsive-headline">JThing</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns"> 
+      <h2 class="text-center responsive-heading">Do a Jewish Thing Together</h2>
+    </div>
+  </div>
+
+  <div class ="row">
+    <div class ="small-12 columns">
+      <h3 class="text-center kalam mg-top-xlg">
+        Dear Quakers out there in the “Real World”,<br>
+        Ever wanted to host your own Shabbat dinner or throw a party for all those <br>
+        MOT's (Members of the Tribe) in your life? <br>
+        Well now's the time to do it.<br> 
+        And we'll cover the bill --like, for real.<br>
+      </h3>
+      <div class="row">
+        <div class="small-10 small-centered medium-10 large-6 columns">
+          <h3 class="text-right kalam mg-top">
+            xoxo,<br>
+            Penn Hillel          
+          </h3>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="allIntros small-12 columns" id="intro3">
+      <h3 class="text-center mg-top-xlg">Ready? </h3> 
+      <p class="text-center">Shoot us a note and let’s make it happen.</p>
+      <div class="row">
+        <div class="small-12 medium-6 medium-centered large-4 columns">
+          <a href="#" data-reveal-id="firstModal" class="expand large button round">Contact Us!</a>
+        </div>
+      </div>
+    </div>  
+  </div>
+  
+  
+    <div id="firstModal" class="reveal-modal" data-reveal aria-labelledby="firstModalTitle" aria-hidden="true" role="dialog">
+      <h1 id="firstModalTitle">Contact Us</h2>
+      <form action="" method="post">
+        <h3>Name</h3>
+        <input id="name" type="text" name="name"></input>
+        <h3>Email</h3>
+        <input id="email" type="email" name="email"></input>
+        <h3>What are you thinking?</h3>
+        <p>(When would you like to host? How many folks will be there? How can we help you?)</p>
+        <input id="thinking" type="textarea" name="thinking"></input>
+        <a href="#" data-reveal-id="secondModal"><input id="submit" type="submit" name="submit" value="submit"></input></a>
+      </form>
+    </div>
+
+    <div id="secondModal" class="reveal-modal" data-reveal aria-labelledby="secondModalTitle" aria-hidden="true" role="dialog">
+      <h2>Thank you. Your message has been received. We'll get back to you soon...</h2>
+    </div>
+
+  <div class="row" id="intro4Div"> 
+    <div class="allIntros small-12 columns" id="intro4">
+      <h3 class="text-center mg-top-xlg">Feel inspired, but not sure what to do? <br>
+      Let us make a few suggestions....
+     Click to walk through a door!</h3>
+    </div>
+  </div>
+  
+
+
+<div class="row">
+  
+  <div class="small-12 medium-4 large-4 columns">
+    <a href="brunch.html">
+      <div id="door3">
+        <span class="doorText">
+          Brunch
+        </span>
+      </div>
+    </a>
+  </div>
+
+  <div class="small-12 medium-4 large-4 columns">
+    <a href="cheesewine.html">
+      <div id="door2">
+        <span class="doorText">
+            Wine & Cheese
+        </span>
+      </div>
+    </a>
+  </div>
+
+  <div class="small-12 medium-4 large-4 columns">
+    <a href="dinner.html">
+      <div id="door1">
+        <span class="doorText">
+            Shabbat
+        </span>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 columns footer">
+    <p>This is a project of the Penn Jewish Alumni Network and is generously supported by Joseph and Meryl Mark.</p>
+    <img src="img/hillelLogo.png"></img>
+  </div>  
+</div>
+
+
+</div>
+
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <!--
+    <script type ="text/javascript" src="skrollr.stylesheets.min.js"></script>
+    -->
+    <script type ="text/javascript" src="skrollr.js"></script>
+    <script type = "text/javascript">
+      var s=skrollr.init();
+    </script>
+
+    <script>
+      jQuery("h1.responsive-headline").fitText(0.7, { minFontSize: '70px' });
+      jQuery("h2.responsive-heading").fitText(2.6, { minFontSize: '22spx' });
+    </script>
+
+</body>
+</html>
