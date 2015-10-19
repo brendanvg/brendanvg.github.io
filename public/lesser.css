@@ -31,11 +31,12 @@ body {
 }
 
 .title{
-	margin-top: 5%;
+	margin-top: 10%;
 	color:white;
 	font-size: 4em;
 	text-shadow:3px 3px 1px #008CBA;
 	font-family: 'Dosis', sans-serif;
+	line-height: 1em;
 }
 
 .subtitle {
@@ -82,6 +83,12 @@ body {
 .centered {
 	text-align: center;
 	margin: auto;
+}
+
+#davidsblog{
+	color:white;
+	font-size: 4em;
+
 }
 
 // Small screens
