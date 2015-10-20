@@ -1,0 +1,27 @@
+{
+  "name": "foundation-5.5.2",
+  "version": "1.0.0",
+  "main": "bootstrap.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brendanvg/jthing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendanvg/jthing/issues"
+  },
+  "homepage": "https://github.com/brendanvg/jthing#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "ecstatic": "^1.0.0",
+    "finalhandler": "^0.4.0",
+    "serve-static": "^1.10.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

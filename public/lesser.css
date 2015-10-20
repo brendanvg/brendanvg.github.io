@@ -1,24 +1,199 @@
 body {
-background: url(01_splash.png) no-repeat center center fixed; 
+  background: url(01_splash.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: fixed;
 }
 
-.menu h3{
-	font-size: 4em !important;
+.menu {
+	position:fixed;
+	background-color: black;
+	width:20%;
+}
+
+.menu h3 {
+	font-size: 2em !important;
+	font-family: 'Dosis', sans-serif;
+}
+
+.casepic {
+	margin-bottom: 5%;
+}
+.casepicsub{
+	color:white;
 }
 
 .maintext{
 	color:white;
+	font-family: 'Muli', sans-serif;
+}
+
+.title{
+	margin-top: 10%;
+	color:white;
+	font-size: 4em;
+	text-shadow:3px 3px 1px #008CBA;
+	font-family: 'Dosis', sans-serif;
+	line-height: 1em;
+}
+
+.subtitle {
+	color:white;
+	font-size: 3em;
+	text-shadow:3px 3px 1px #008CBA;
+	margin-bottom: 10%;
+	font-family: 'Dosis', sans-serif;
 }
 
 .subheader{
 	color:white;
+	font-family: 'Dosis',sans-serif;
 }
 
-.title{
-	color:white;
-	font-size: 3em;
+.black {
+	background-color: black !important;
 }
+
+.mymenu{
+	position:fixed !important;
+	z-index: 100;
+	width:100%;
+}
+
+.mymenu ul li a {
+	color:white !important;
+}
+
+#davidimg{
+	margin-top: 10%;
+}
+
+.mypad{
+	padding: 5%;
+}
+
+.subsubheader{
+	color:white;
+	font-family: 'Dosis',sans-serif;
+}
+
+
+.centered {
+	text-align: center;
+	margin: auto;
+}
+
+#davidsblog{
+	color:white;
+	font-size: 4em;
+
+}
+
+// Small screens
+@media only screen { 
+	.menu h3{
+		font-size: 1em !important;
+	}
+
+	.title{
+	font-size: 2.5em;
+	}
+
+	.subtitle {
+		font-size: 1.5em;
+	}
+
+	.subheader {
+		font-size:2em;
+	}
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { 
+	.menu h3{
+		font-size: 1em !important;
+	}
+
+	.title{
+	font-size: 3em;
+	}
+
+	.subtitle {
+		font-size: 2em;
+	}
+
+	.subheader {
+		font-size:2em;
+	}
+	#davidimg {
+		margin-left:25%;
+	}
+	.myboardimg {
+	}
+	
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { 
+	.title{
+	font-size: 2.5em;
+	}
+
+	.subtitle {
+		font-size: 1.5em;
+	}
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+	.title{
+	font-size: 5em;
+	}
+
+	.subtitle {
+		font-size: 3em;
+	}} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+.subheader {
+		font-size:3em;
+	}
+
+	.myimg{
+		margin-top: 10%;
+	}
+	
+
+
+// Large screens
+@media only screen and (min-width: 64.063em) { 
+	.title{
+	font-size: 5em;
+	}
+
+	.subtitle {
+		font-size: 2em;
+	}
+} /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+	.title{
+	font-size: 5em;
+	}
+
+	.subtitle {
+		font-size: 3.5em;
+	}
+
+	.myboardimg {
+		margin-top: 10%;
+		
+	}
+} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
