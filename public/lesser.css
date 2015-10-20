@@ -91,6 +91,9 @@ body {
 
 }
 
+ul > li > a{
+	color:white !important;
+}
 // Small screens
 @media only screen { 
 	.menu h3{
