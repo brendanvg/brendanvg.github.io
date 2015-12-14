@@ -1,5 +1,6 @@
 body {
-  background: url(imgs/spacerise-raw.png) no-repeat center center fixed; 
+  background-image: black;
+  background: black url(imgs/spacerise-raw.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
